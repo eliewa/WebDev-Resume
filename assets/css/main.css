@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  /* list-style: none; */
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+h2 {
+  color: cornflowerblue;
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding: 2rem;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+header h1, p, img, h2 {
+  font-family: 'Poppins', sans-serif;
+  /* margin-left: 20%; */
+}
+
+i {
+  padding-top: 1rem;
+}
+
+header img {
+  width: 10%;
+  min-width: 150px;
+  height: auto;
+  object-fit: cover;
+  padding-top: 1rem;
+}
+
+/* section img {
+  height: 500px;
+} */
+
+strong p{
+  min-width: 150px;
+}
+
+h3 {
+  padding-top: 1rem;
+}
+
+li {
+  margin-left: 1rem;
+}
+
+.title {
+ padding: 1rem;
+ align-self: flex-end;
+ position: relative;
+ top: 1rem;
+}
+
+.contact-info {
+  min-width: 400px;
+  align-self: end;
+  margin-left: 2rem;
+}
+
+.quote {
+  width: 40%;
+  max-width: 450px;
+  margin: auto;
+  padding: 1rem;
+  position: relative;
+  left: 20%;
+}
+
+.professional-profile {
+  margin-left: 10%;
+  border-bottom: 2px solid black;
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  width: 80%;
+}
+
+.professional-profile img {
+  object-fit: cover;
+  width: 100px;
+  height: auto;
+  padding-top: 1rem;
+  padding-left: .5rem;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-container {
+  width: 80%;
+  padding-left: 1.5rem;
+}
+
+.job-container {
+  display: flex;
+}
+
+.city {
+  padding-left: .5rem;
+  border-left: 1px solid black;
+}
+
+.company {
+  padding-right: .5rem;
+}
+
+.btn {
+  border-bottom: 1px solid black;
+}
