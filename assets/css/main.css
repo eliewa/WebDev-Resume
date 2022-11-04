@@ -125,6 +125,10 @@ li {
   padding-right: .5rem;
 }
 
-.btn {
+.btn, .design a {
   border-bottom: 1px solid black;
+}
+
+.design {
+  width: 150px;
 }
